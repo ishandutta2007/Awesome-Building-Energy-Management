@@ -1,219 +1,131 @@
-# Awesome-Building-Energy-Management
+# Awesome Building Energy Management 🏢⚡🌱
 
-## Top Building Energy Management Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Building Energy Management Banner" width="100%"/>
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Overview & Ecosystem Summary
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+Welcome to the **Awesome Building Energy Management Systems (BEMS)** directory — a curated list of top SaaS platforms, commercial software, and open-source projects for **Building Energy Management**, **HVAC Optimization**, **Automated Fault Detection & Diagnostics (AFDD)**, and **Decarbonization Analytics**.
 
-*Focused on Energy Analytics, Fault Detection & Automated Building Optimization*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Building Energy Management**. These tools monitor, analyze, and optimize building energy consumption, HVAC performance, and grid interactivity for commercial buildings, campuses, and industrial facilities.
-
-
-
-**Examples** include BrainBox AI, GridPoint, Facilio, BuildingIQ, Clockworks Analytics, Switch Automation, Verdigris, 75F, Enertiv, and C3 AI Energy Management (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom energy analytics, and transparent building data management — ideal for facility managers, building engineers, researchers, and developers building vendor-independent energy optimization solutions. The open-source ecosystem offers production-grade Energy Management Systems (EMS), fault detection frameworks, and control platforms from national laboratories and research institutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[BrainBox AI](https://www.brainboxai.com/)**  
-
-  AI-powered HVAC optimization platform using deep learning to reduce energy consumption and carbon emissions in commercial buildings.
-
-
-
-- **[GridPoint](https://www.gridpoint.com/)**  
-
-  Energy management platform for commercial buildings with demand response, backup power, and sustainability reporting.
-
-
-
-- **[Facilio](https://facilio.com/)**  
-
-  Connected building operations platform with energy management, maintenance, and sustainability tools for portfolios.
-
-
-
-- **[BuildingIQ](https://www.buildingiq.com/)**  
-
-  AI-driven energy optimization platform using predictive analytics to reduce HVAC energy consumption.
-
-
-
-- **[Clockworks Analytics](https://www.clockworksanalytics.com/)**  
-
-  Automated fault detection and diagnostics platform for building HVAC systems, identifying energy waste and equipment issues.
-
-
-
-- **[Switch Automation](https://www.switchautomation.com/)**  
-
-  Smart building platform for energy management, ESG reporting, and building system integration.
-
-
-
-- **[Verdigris](https://verdigris.co/)**  
-
-  AI-powered energy management platform using circuit-level metering and machine learning for building optimization.
-
-
-
-- **[75F](https://www.75f.io/)**  
-
-  IoT-based building management system focused on HVAC, lighting, and energy optimization for commercial buildings.
-
-
-
-- **[Enertiv](https://www.enertiv.com/)**  
-
-  Building operations platform with energy monitoring, equipment health, and work order management.
-
-
-
-- **[C3 AI Energy Management](https://c3.ai/)**  
-
-  Enterprise AI application for energy management, covering building portfolios with predictive analytics and optimization.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[VOLTTRON](https://github.com/VOLTTRON/volttron)**  
-
-  The leading open-source distributed control and sensing platform for buildings, developed at Pacific Northwest National Laboratory (PNNL) and now under the Eclipse Foundation. Python-based, lightweight, and runs on low-cost hardware including Raspberry Pi. Features a central message bus with pub-sub architecture, drivers for BACnet and Modbus, and applications written as "agents" including automated fault detection diagnostics (AFDD), intelligent load control, demand response, and autonomous control of rooftop units. Built-in cybersecurity features include authentication, authorization, and secure application transport. Deployed by Transformative Wave, Intellimation, New City Energy, and SkyCentrics. The aems-app repository provides a full Docker-based deployment with historian, backup, and replication capabilities .
-
-
-
-- **[ZandrEA](https://github.com/usnistgov/ZandrEA)**  
-
-  Open-source software framework from NIST supporting research into automated, real-time detection and diagnostics of operational faults in HVAC systems of large commercial buildings. Combines benefits of rules-based and data-driven (process history-based) AFDD approaches. Five Docker containers: computational engine (C++ with REST API), React-based GUI dashboard, live data collection script polling BACnet devices, reverse proxy, and a container for research on novel AFDD algorithms in Python/JS. Designed to free researchers from implementing data distribution and real-time display, allowing focus on novel algorithm exploration. BSD 3-Clause licensed .
-
-
-
-- **[MyEMS](https://github.com/MyEMS/myems)**  
-
-  Industry-leading open-source Energy Management System with nearly a thousand project cases and CMA testing certification. Follows ISO 50001 energy management standard (GB/T 23331-2020). Suitable for buildings, factories, shopping malls, hospitals, and parks. Features electricity, water, gas, cooling, and heating data collection, analysis, and reporting. Enterprise version adds photovoltaics, energy storage, charging piles, microgrids, virtual power plants, equipment control, fault diagnosis, work order management, and AI optimization. Python/React/AngularJS stack with MySQL database. Maintained by a professional company with monthly releases. Community edition is MIT licensed with permanent open-source commitment .
-
-
-
-- **[BEMServer](https://github.com/BEMServer/bemserver)**  
-
-  Open-source platform designed to support building energy management through integration, organization, and utilization of data from multiple sources. Acts as an intermediary layer centralizing heterogeneous information including BMS data, sensors, weather services, and occupancy monitoring. Incorporates a semantic model for consistent, interoperable data representation. Provides API interfaces supporting monitoring, analytics, forecasting, anomaly detection, and energy performance indicator generation. Modular and scalable architecture. Originally developed within the European HIT2GAP project with contributions from NOBATEK/INEF4 and other partners. First release in December 2019 .
-
-
-
-- **[Open-FDD](https://github.com/bbartling/open-fdd)**  
-
-  Free, open-source building-to-cloud pipeline for HVAC analytics and fault detection. Same stack runs on-premises or in the cloud using high-performance Apache Arrow storage and DataFusion SQL, a Rust central service, React operator UI, Mosquitto MQTTS ingest, and fieldbus edge agents for BACnet, Modbus, and Haystack. Includes REST APIs and CSV/zip import for offline data. MIT licensed with GHCR images available. Roadmap includes ML and clustering on the same foundation. PyPI package `open-fdd` provides rule-based FDD equations with Pandas as reference implementation .
-
-
-
-- **[City Energy Analyst (CEA)](https://github.com/architecture-building-systems/CityEnergyAnalyst)**  
-
-  Open-source urban building energy modeling (UBEM) platform and computation tool for the design of low-carbon and highly efficient cities. Combines urban planning and energy systems engineering knowledge in an integrated simulation platform to study effects, trade-offs, and synergies of urban design scenarios and energy infrastructure plans. Version 3.39.4 released 2025. Empowers practitioners and researchers to plan future low-carbon cities .
-
-
-
-- **[BEMOSS](https://github.com/bemoss)**  
-
-  Building Energy Management Open-Source Software platform providing a unified communication platform that integrates information from disparate sources and provides one control hierarchy. Low-cost, open-source software platform that monitors and controls major electrical loads including HVAC, lighting, and plug loads, as well as solar PV, energy storage, and IoT sensors. Provides new or legacy buildings with a building automation system (BAS) or connects with existing BASs. Leverages machine learning algorithms using historical operating data and occupant preferences for energy savings. Supports OpenADR demand response protocols .
-
-
-
-- **[ACTIVE (Automated Control Testbed for Integration, Verification, and Emulation)](https://github.com/SmithRWORNL/ACTIVE)**  
-
-  Open-source framework from Oak Ridge National Laboratory (BSD 3-Clause) supporting optimized operation and management of diverse building types. Enables development, testing, and validation of diverse control strategies including AI-based, rule-based, and model-based approaches. Facilitates seamless transition from simulation-based evaluation to real-world field validation and deployment. Supports full building management lifecycle: data acquisition, system monitoring, optimized control, adaptive learning, device dispatch, and advanced analytics. Python-based, version 2.0.9 released 2025. Sponsored by DOE Building Technologies Office .
-
-
-
-- **[CEAM (Climate and Energy Assessment for Museums)](https://github.com/Climate2Preserv)**  
-
-  Open-source, data-driven tool for comprehensive multicriteria analysis of heritage buildings. Considers heritage preservation, indoor climate management, and energy efficiency improvement. Uses raw input data (measured energy consumption and indoor/outdoor climate conditions) to provide insights. Employs AI-based optimization methods to evaluate potential energy savings through short-term management strategies, with predicted savings of 10-50% depending on scenario. Python-based with standalone Windows app. Developed by KU Leuven, KIK-IRPA, and ULiège as part of the Climate2Preserv project funded by Belgian Science Policy Office .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **BOPTEST** — Building Optimization Performance Tests framework for benchmarking HVAC control strategies. Containerized emulators with standardized KPIs for fair comparison of control algorithms. Modelica-based .
-
-- **NexMesh** — Field-configurable open-source Wi-Fi mesh node for scalable building energy management systems. Addresses hardware complexity and rigid firmware architectures in WSN deployment for BEMS. Demonstrates x7.7 to x12.5 reduction in configuration time compared to traditional methods .
-
-- **openbms-io/bms-apps** — Open-source BMS applications including Designer with Zod schema validation and IoT app. pnpm monorepo with SQLite/Turso database support .
-
-
-
-**Frameworks for building custom building energy management solutions**: Combine **VOLTTRON** for a production-grade distributed control platform with agent-based architecture and security features . Use **ZandrEA** for research-oriented AFDD development combining rules-based and data-driven approaches . Deploy **MyEMS** for a comprehensive ISO 50001-aligned EMS with enterprise features . Leverage **Open-FDD** for a modern cloud-native fault detection pipeline with Rust and DataFusion . Use **ACTIVE** for testing and validation of control strategies before field deployment . For urban-scale energy modeling, **City Energy Analyst** provides district-level simulation capabilities .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Building energy management tools must comply with local building codes, energy regulations, and grid interconnection standards.
-
-- Self-hosted open-source solutions require proper infrastructure, expertise in building automation protocols (BACnet, Modbus, MQTT), and ongoing maintenance. Integration with existing building systems requires specialized knowledge.
-
-- The open-source ecosystem provides strong EMS platforms, fault detection frameworks, and control testbeds from national laboratories and research institutions, but full commercial energy management with automated fault detection, portfolio analytics, and utility bill management remains primarily a commercial offering.
-
-
+Whether you are a facility manager, building engineer, IoT developer, or sustainability researcher, this repository helps you discover production-ready solutions and open-source frameworks to monitor energy consumption, optimize HVAC operations, reduce greenhouse gas emissions, and achieve smart grid interactivity.
 
 ---
 
+## 📑 Table of Contents
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
+---
 
-**Made for facility managers, building engineers, energy analysts, and smart building developers.**  
+## 🏢 SaaS & Commercial Platforms
 
-Let's make building energy management more open, transparent, and efficient.
+> 💡 **Market Size & Structure**: The global Building Energy Management Systems (BEMS) market is valued at approximately **$12.5 Billion to $15.0 Billion** (2025/2026) and is projected to reach over **$28 Billion by 2032** growing at a CAGR of ~11.5%. The market is **moderately fragmented**, featuring a mix of enterprise industrial conglomerates (C3 AI, Trane/BrainBox AI), mid-tier IoT platforms (GridPoint, Facilio), and niche HVAC/FDD specialists.
+
+Below is a structured comparison of leading commercial BEMS and building analytics software sorted by **Company Size / Revenue / Valuation (Descending)**:
+
+| Platform | Company Size / Valuation / Revenue | Starting Price | Free Tier / Trial Limit | Key Focus & Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[C3 AI Energy Management](https://c3.ai/)** 🤖 | **$3.5B Valuation** / ~$310M Annual Revenue | $250,000 / year (Enterprise deployment) | 14-Day Enterprise Sandbox Demo | Enterprise AI for portfolio-wide energy optimization, carbon tracking, and predictive maintenance. |
+| **[BrainBox AI](https://www.brainboxai.com/)** 🧠 | **$103M+ Raised** (Acquired by Trane Technologies $50B+ Market Cap) | $0.05 / sq ft / year (SaaS subscription model) | Free Energy Audit & Savings Assessment Report | Autonomous deep learning AI for real-time HVAC optimization and carbon reduction. |
+| **[GridPoint](https://www.gridpoint.com/)** ⚡ | **$150M+ Valuation** / ~$75M Annual Revenue | $300 / month / site (Hardware + SaaS bundle) | Free Site Assessment & 30-Day Pilot | Commercial energy management, demand response, microgrid integration, and submetering. |
+| **[Facilio](https://facilio.com/)** 🏢 | **$100M+ Valuation** / ~$30M Annual Revenue | $500 / month (Basic commercial facility tier) | 14-Day Free Trial (Full Platform Features) | Connected building operations, IoT-driven asset maintenance, and portfolio energy analytics. |
+| **[Switch Automation](https://www.switchautomation.com/)** 🌐 | **$50M+ Valuation** / ~$15M Annual Revenue | $400 / month / facility | 30-Day Free Trial with Sample Building Datasets | Smart building platform for ESG reporting, system integration, and environmental monitoring. |
+| **[Clockworks Analytics](https://www.clockworksanalytics.com/)** 🔍 | **$45M Valuation** / ~$12M Annual Revenue | $0.03 / sq ft / year | 30-Day Pilot Trial for Qualified Commercial Portfolios | Automated Fault Detection and Diagnostics (AFDD) for HVAC equipment and air handlers. |
+| **[75F](https://www.75f.io/)** 🌡️ | **$40M+ Valuation** / ~$10M Annual Revenue | $250 / controller unit + $15/mo SaaS fee | 30-Day Money-Back Guarantee & Hardware Demo | IoT-based smart building automation system targeting commercial HVAC and zone control. |
+| **[Verdigris](https://verdigris.co/)** 📊 | **$35M Valuation** / ~$8M Annual Revenue | $150 / month / panel (AI hardware + software bundle) | 30-Day Risk-Free Hardware Trial | High-frequency AI circuit-level submetering and predictive equipment failure alerts. |
+| **[Enertiv](https://www.enertiv.com/)** 📉 | **$30M Valuation** / ~$6M Annual Revenue | $200 / month / building | 14-Day Guided Platform Demo | Building operations platform focused on submetering, energy tracking, and tenant billing. |
+| **[BuildingIQ](https://www.buildingiq.com/)** 🏛️ | **$15M Valuation** / ~$5M Annual Revenue | $0.04 / sq ft / year | Free 30-Day Thermal Profile Analysis | Predictive HVAC optimization using thermodynamic modeling and cloud control. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source ecosystem offers production-grade Energy Management Systems (EMS), fault detection pipelines, control testbeds, and simulation tools.
+
+The repos below are sorted by **GitHub Star Count (Descending)**:
+
+- [<img src="https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white" alt="MyEMS Stars"/>](https://github.com/MyEMS/myems/stargazers) **[MyEMS](https://github.com/MyEMS/myems)** 🇨🇳  
+  Industry-leading open-source Energy Management System aligned with ISO 50001 (GB/T 23331-2020). Collects and analyzes electricity, water, gas, cooling, and heating data. Includes enterprise features for photovoltaics, energy storage, charging piles, microgrids, and AI optimization. Python/React stack with MySQL database.
+
+- [<img src="https://img.shields.io/github/stars/VOLTTRON/volttron?style=social&color=white" alt="VOLTTRON Stars"/>](https://github.com/VOLTTRON/volttron/stargazers) **[VOLTTRON](https://github.com/VOLTTRON/volttron)** ⚡  
+  The leading open-source distributed control and sensing platform for buildings, developed at Pacific Northwest National Laboratory (PNNL) under the Eclipse Foundation. Python-based agent architecture with pub-sub message bus, BACnet/Modbus drivers, automated fault detection, and demand response.
+
+- [<img src="https://img.shields.io/github/stars/architecture-building-systems/CityEnergyAnalyst?style=social&color=white" alt="CEA Stars"/>](https://github.com/architecture-building-systems/CityEnergyAnalyst/stargazers) **[City Energy Analyst (CEA)](https://github.com/architecture-building-systems/CityEnergyAnalyst)** 🏙️  
+  Open-source urban building energy modeling (UBEM) platform for designing low-carbon cities. Combines urban planning and energy systems engineering to evaluate energy infrastructure scenarios and decarbonization trade-offs.
+
+- [<img src="https://img.shields.io/github/stars/ibpsa/boptest?style=social&color=white" alt="BOPTEST Stars"/>](https://github.com/ibpsa/boptest/stargazers) **[BOPTEST](https://github.com/ibpsa/boptest)** 🧪  
+  Building Optimization Performance Tests framework by IBPSA for benchmarking advanced HVAC control strategies using containerized Modelica emulators and standardized KPIs.
+
+- [<img src="https://img.shields.io/github/stars/BEMServer/bemserver?style=social&color=white" alt="BEMServer Stars"/>](https://github.com/BEMServer/bemserver/stargazers) **[BEMServer](https://github.com/BEMServer/bemserver)** 🇪🇺  
+  Open-source platform designed to centralize heterogeneous building data (BMS, sensors, weather, occupancy). Features a semantic data model, REST APIs for analytics, forecasting, and energy performance indicators. Developed under the EU HIT2GAP project.
+
+- [<img src="https://img.shields.io/github/stars/bbartling/open-fdd?style=social&color=white" alt="Open-FDD Stars"/>](https://github.com/bbartling/open-fdd/stargazers) **[Open-FDD](https://github.com/bbartling/open-fdd)** 🔧  
+  Cloud-native building analytics and fault detection pipeline built on Apache Arrow, DataFusion SQL, Rust, React, Mosquitto MQTT, and BACnet/Modbus edge agents. Includes Pandas-based FDD rule libraries.
+
+- [<img src="https://img.shields.io/github/stars/bemoss/bemoss_os?style=social&color=white" alt="BEMOSS Stars"/>](https://github.com/bemoss/bemoss_os/stargazers) **[BEMOSS](https://github.com/bemoss/bemoss_os)** 🔌  
+  Building Energy Management Open-Source Software for monitoring and controlling HVAC, lighting, plug loads, solar PV, and energy storage with OpenADR demand response support.
+
+- [<img src="https://img.shields.io/github/stars/usnistgov/ZandrEA?style=social&color=white" alt="ZandrEA Stars"/>](https://github.com/usnistgov/ZandrEA/stargazers) **[ZandrEA](https://github.com/usnistgov/ZandrEA)** 🏛️  
+  NIST framework for real-time automated fault detection and diagnostics (AFDD) in commercial HVAC systems, combining rule-based and process history-based methods. Dockerized architecture with C++ engine, Python scripts, and React GUI.
+
+- [<img src="https://img.shields.io/github/stars/SmithRWORNL/ACTIVE?style=social&color=white" alt="ACTIVE Stars"/>](https://github.com/SmithRWORNL/ACTIVE/stargazers) **[ACTIVE Framework](https://github.com/SmithRWORNL/ACTIVE)** 🔬  
+  Automated Control Testbed for Integration, Verification, and Emulation from Oak Ridge National Laboratory (ORNL). Supports AI, rule-based, and model-based building control strategies from simulation to field deployment.
+
+- [<img src="https://img.shields.io/github/stars/Climate2Preserv/CEAM?style=social&color=white" alt="CEAM Stars"/>](https://github.com/Climate2Preserv/CEAM/stargazers) **[CEAM](https://github.com/Climate2Preserv/CEAM)** 🏛️  
+  Data-driven multicriteria analysis tool for heritage building climate management and energy optimization. Uses AI optimization to achieve 10-50% energy savings while preserving historical structures.
+
+- [<img src="https://img.shields.io/github/stars/openbms-io/bms-apps?style=social&color=white" alt="OpenBMS Apps Stars"/>](https://github.com/openbms-io/bms-apps/stargazers) **[openbms-io/bms-apps](https://github.com/openbms-io/bms-apps)** 📱  
+  Modern open-source BMS application suite in a pnpm monorepo featuring Zod schema validation, SQLite/Turso database support, and IoT control interfaces.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly appreciated! To contribute:
+
+1. **Fork** this repository.
+2. Create a new branch (`git checkout -b feature/add-new-project`).
+3. Add your entry to `README.md` following the table/markdown structure.
+4. Ensure descriptions are concise, factual, and include relevant links.
+5. **Open a Pull Request** with a brief summary of the addition.
+
+Please check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this repository helpful for your building energy research, commercial project, or open-source development, please consider showing your support:
+
+- ⭐ **Star** this repository to increase its visibility.
+- 🔀 **Fork** and contribute new tools or updates.
+- 📢 **Share** this list with colleagues, engineers, and facility managers.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and curation, check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for helping make building energy management more open, smart, and sustainable! 🌿
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated list intended for informational and educational purposes only.
+- Software and SaaS product details (pricing, valuation, free tier limits) are estimated based on publicly available data and industry benchmarks as of 2026.
+- Self-hosted open-source software requires proper domain expertise in building protocols (BACnet, Modbus, MQTT, Haystack) and system administration.
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Building-Energy-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Building-Energy-Management&type=date&legend=top-left)
