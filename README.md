@@ -55,7 +55,7 @@ Below is a structured comparison of leading commercial BEMS and building analyti
 
 The open-source ecosystem offers production-grade Energy Management Systems (EMS), fault detection pipelines, control testbeds, and simulation tools.
 
-The repos below are sorted by **GitHub Star Count (Descending)**:
+The repos below are sorted by **GitHub Stars_Count (Descending)**:
 
 - [<img src="https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white" alt="MyEMS Stars"/>](https://github.com/MyEMS/myems/stargazers) **[MyEMS](https://github.com/MyEMS/myems)** 🇨🇳  
   Industry-leading open-source Energy Management System aligned with ISO 50001 (GB/T 23331-2020). Collects and analyzes electricity, water, gas, cooling, and heating data. Includes enterprise features for photovoltaics, energy storage, charging piles, microgrids, and AI optimization. Python/React stack with MySQL database.
